@@ -1,1 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background: linear-gradient(
+        #E92e3d,
+        #ff6e6a
+    );
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.dice-wrapper{
+    background-color: whitesmoke;
+    padding: 4% 2% 2%;
+}
+
+.dice-title{
+    text-align: center;
+    padding: 2% 0;
+
+}
+
+.dice{
+    text-align: center;
+    padding: 2% 0;
+    
+}
+.player-title{
+    padding: 2% 0;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+.dice-instruction{
+    text-align: center;
+}
